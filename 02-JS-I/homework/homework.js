@@ -1,7 +1,7 @@
  // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'perro';
+const nuevaString = "mortadela";
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 1995;
@@ -17,7 +17,6 @@ const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
-
 
 // En los próximos 22 problemas, deberás completar la función.
 // Todo tu código irá dentro de las llaves de la función.
@@ -192,7 +191,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var frase = "Hola ${nombre}!"
+  var frase = "Hola " + nombre +"!";
   return frase
 }
 
@@ -235,7 +234,7 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if ( letra === "a" || letra === "B" || letra === "i" || letra === "o" || letra === "u"){
+  if ( letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
     return "Es vocal"
   }
   if (letra.length > 1){
